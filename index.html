@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortfolioWEB</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LeviFrontEnd - Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+<!-- Scroll to Top Button -->
+<div class="top-scroll-btn">
+    <i class="fas fa-angle-up"></i>
+</div>
+
+<!-- Navigation Bar -->
+<nav class="nav">
+    <div class="container-nav">
+        <div class="logo"><a href="#"><span>LeviFront</span><span class="logo-end">End</span></a></div>
+        <ul class="navigation">
+            <li><a href="#home" class="nav-btns"><strong>HOME</strong></a></li>
+            <li><a href="#about" class="nav-btns"><strong>ABOUT</strong></a></li>
+            <li><a href="#projects" class="nav-btns"><strong>PROJECTS</strong></a></li>
+            <li><a href="#contact" class="nav-btns"><strong>CONTACT</strong></a></li>
+            <li><a href="#skills" class="nav-btns"><strong>SKILLS</strong></a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Main Landing Section -->
+<section class="landing" id="home">
+    <div class="container">
+        <div class="landing-content">
+            <div class="greeting">HELLO, I am</div>
+            <div class="name">Leviano Memane</div>
+            <div class="role">a recent computer science student interested in front-end development <span class="dynamic-typing"></span></div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="about-me" id="about">
+    <div class="container">
+        <h2 class="title">Who am I?</h2>
+        <div class="about-info">
+            <div class="display-picture">
+                <img src="graphics\me.jpg" alt="display-picture 626x626">
+            </div>
+            <div class="bio">
+                <div class="info-bio">I am Leviano Memane, a <span class="dynamic-role"></span></div>
+                <p>Results-oriented Computer Science graduate with a strong academic background and a keen interest in software engineering and data science. 
+                    Proficient in Python, C/C++, SQL and Java, gained through coursework. 
+                    A quick learner with good problem-solving skills and a collaborative mindset. 
+                    Eager to contribute technical expertise and enthusiasm for innovation. </p>
+                <br>
+                <a href="graphics\CV-Leviano.pdf"  download="CV">Download My CV</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Projects Section -->
+<section class="projects-info" id="projects">
+    <div class="container">
+        <h2 class="title">My Portfolio</h2>
+        <div class="projects-wrapper">
+            <div class="project-1">
+                <img class="pic" src="graphics\calculator_html.jpeg" alt="Project picture">
+                <div class="project-overlay">
+                    <div class="project-info">
+                        <h3>Calculator</h3>
+                        <p>a basic calculator built with html and css</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-me" id="contact">
+    <div class="container">
+        <h2 class="title">Get in Touch</h2>
+        <div class="contact-info">
+            <div class="contact-details">
+                <div class="contact-type"><i class="fas fa-map-marker-alt"></i> Address:</div>
+                <div class="contact-value"> Potchefstroom, South Africa</div>
+            </div>
+            <div class="contact-details">
+                <div class="contact-type"><i class="fas fa-envelope"></i> Email:</div>
+                <div class="contact-value"><a href="mailto:levianomemane.lm14@gmail.com">levianomemane.lm14@gmail.com</a></div>
+            </div>
+            <div class="contact-details">
+                <div class="contact-type"><i class="fas fa-phone-alt"></i> Mobile Number:</div>
+                <div class="contact-value">+27 81 334 5588</div>
+            </div>
+        </div>
+        <form class="contact-form">
+            <div class="form-type">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-type">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-type">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!--Skills section-->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skill">
+        <h3>HTML</h3>
+        <progress value="88" max="100"></progress>
+        
+    </div>
+    <div class="skill">
+        <h3>CSS</h3>
+        <progress value="65" max="100"></progress>
+    </div>
+    <div class="skill">
+        <h3>JavaScript</h3>
+        <progress value="50" max="100"></progress>
+    </div>
+    <!-- Add more skills and progress bars as needed -->
+</section>
+
+<!-- Footer Section -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="www.linkedin.com/in/leviano-m-60b478179" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/blxckpearl" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="footer-text">
+                <p>&copy; 2024 LeviFrontEnd. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,318 @@
+/* Scroll to Top Button */
+.top-scroll-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+/* Navigation Bar */
+.nav {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-end{
+  color: yellow;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation li:last-child {
+  margin-right: 0;
+}
+
+.nav-btns {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main Landing Section */
+.landing {
+  background-color: #f2f2f2;
+  padding: 100px 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.landing-content {
+  margin-top: 50px;
+}
+
+.greeting {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.role {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.landing-content a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* About Section */
+.about-me {
+  padding: 100px 0;
+}
+
+.about-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.display-picture img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.bio {
+  margin-left: 50px;
+}
+
+.info-bio {
+  font-size: 18px;
+}
+
+.bio p {
+  margin-top: 20px;
+}
+
+.about-me a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Projects Section */
+.projects-info {
+  background-color: #f2f2f2;
+  padding: 100px 0;
+}
+
+.projects-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-1 {
+  margin: 0 20px;
+}
+
+.project-1 img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.project-overlay {
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-1:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-info {
+  text-align: center;
+  color: #fff;
+}
+
+.project-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-info p {
+  font-size: 16px;
+}
+
+/* Contact Section */
+.contact-me {
+  padding: 100px 0;
+}
+
+.contact-me .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-me .title {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-type {
+  margin-bottom: 20px;
+}
+
+.form-type label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.form-type input,
+.form-type textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-type textarea {
+  resize: vertical;
+}
+
+.button-area {
+  margin-top: 20px;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.contact-details {
+  margin-bottom: 10px;
+}
+
+.contact-type {
+  font-weight: bold;
+}
+
+.contact-value a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+/* Skills Section */
+#skills {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill h3 {
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+
+progress {
+  width: 100%;
+  height: 20px;
+  appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #cf8c07;
+  border-radius: 10px;
+}
+
+progress::-moz-progress-bar {
+  background-color: #cf8c07 ;
+  border-radius: 10px;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
